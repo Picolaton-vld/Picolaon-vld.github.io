@@ -1,0 +1,41 @@
+html{
+    background-color: antiquewhite;
+}
+.center-text {
+	text-align: center; 
+}
+h1{
+	color:rgb(0, 0, 0);
+	font-size: 300%;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    margin-left: 21%;
+    margin-right: 21%;
+    align-self: flex-end;
+}
+
+header{
+    background-image: url('images/presentation.jpeg');
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15%;
+    border-radius: 0 0 15px 15px; 
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: #8B4513; 
+    text-decoration: underline;
+}
